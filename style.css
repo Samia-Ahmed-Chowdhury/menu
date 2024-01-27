@@ -1,0 +1,201 @@
+body {
+    background-color: black;
+}
+
+.text {
+    color: #FEFEFE;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text::after{
+    content: 'Fruits';
+    color: #F08428;
+    animation: moveText1 20s infinite linear;
+}
+
+@keyframes moveText1 {
+    0% {
+        content: 'Fruits';
+    }
+    25%{
+        content: 'Fast Food';
+    }
+    50%{
+        content: 'Milk';
+    }
+    75%{
+        content: 'Vegetables';
+    }
+    100%{
+        content: 'Meat';
+    }
+}
+
+
+.img1 {
+    top: -160px;
+    left: calc(50% - 10%);
+    animation: moveImg3 20s infinite linear;
+}
+
+.img2 {
+    top: -40px;
+    left: 24px;
+    animation: moveImg2 20s infinite linear;
+}
+
+.img3 {
+    top: 160px;
+    left: 24px;
+    animation: moveImg1 20s infinite linear;
+}
+
+.img4 {
+    top: -40px;
+    right: 24px;
+    animation: moveImg4 20s infinite linear;
+}
+
+.img5 {
+    top: 160px;
+    right: 24px;
+    animation: moveImg5 20s infinite linear;
+}
+
+@keyframes moveImg1 {
+    0% {
+        opacity:1;
+        z-index: 1; 
+        transform: scale(1.4,1.4) ;
+    }
+    25%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    50%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    75%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    100%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+}
+@keyframes moveImg2 {
+    0% {
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    25%{
+        opacity:1;
+        z-index: 1; 
+        transform:scale(1.4,1.4) ;
+    }
+    50%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    75%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    100%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+}
+@keyframes moveImg3 {
+    0% {
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    25%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    50%{
+        opacity:1;
+        z-index: 1; 
+        transform:scale(1.4,1.4) ;
+    }
+    75%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    100%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+}
+@keyframes moveImg4 {
+    0% {
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ; 
+    }
+    25%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    50%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    75%{
+        opacity:1;
+        z-index: 1; 
+        transform:scale(1.4,1.4) ;
+    }
+    100%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+}
+@keyframes moveImg5 {
+    0% {
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    25%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    50%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    75%{
+        opacity:.3;
+        z-index: 0; 
+        transform:scale(1,1) ;
+    }
+    100%{
+        opacity:1;
+        z-index: 1; 
+        transform:scale(1.4,1.4) ;
+    }
+}
